@@ -5,19 +5,19 @@ We assume an airport as a base which will have some given amount of resources. T
 
 We model our solution as a constraint satisfaction problem. Our assumptions for the same are:
 
-- Resources: Ground vehicles, Aerial Helicopter, list of resources and their quantity
+* Resources: Ground vehicles, Aerial Helicopter, list of resources and their quantity
 
-- Input (Information we have): Amount of resource required by each relief centre, the capacity of each vehicle -  ground or aerial, the cost associated with each delivery for each vehicle - ground or aerial, the map of the area with information of closed and open routes.
+* Input (Information we have): Amount of resource required by each relief centre, the capacity of each vehicle -  ground or aerial, the cost associated with each delivery for each vehicle - ground or aerial, the map of the area with information of closed and open routes.
 
-- Constraints: Can be any combination of the following:
-a. Total Cost
-b. Time constraint in which the relief materials are to be provided
-c. The capacity of aerial vehicles
-d. The capacity of ground vehicles
-e. Blocked routes, dynamically changing map
-f. Speed limitations of the vehicles
+* Constraints: Can be any combination of the following:
+  * Total Cost
+  * Time constraint in which the relief materials are to be provided
+  * The capacity of aerial vehicles
+  * The capacity of ground vehicles
+  * Blocked routes, dynamically changing map
+  * Speed limitations of the vehicles
 
-- Output: routes to the relief centre satisfying the above constraints
+* Output: routes to the relief centre satisfying the above constraints
 
 Note: We plan to show the validation of our idea on self-generated maps.
 
