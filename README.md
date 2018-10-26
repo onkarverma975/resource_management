@@ -1,4 +1,4 @@
-# Resource Management and Relief Measures during Natural Disasters
+# Resource and Relief Provision during Natural Disasters
 Providing the right relief measures at the right time is crucial during any natural disaster and also after it occurs. It is even more important that the right amount of resources reach the right place. We describe an idea below for the same.
 
 We assume an airport as a base which will have some given amount of resources. There will be some relief centres where the resources need to be delivered.  Since a natural disaster has occurred, some roads might be damaged. This can lead to several routes being closed. Assuming we know the closed routes, the amount of resources we have, and the amount of resources required by each relief centre, we suggest routes which can be followed to optimally deliver the relief material to the respective centres.
